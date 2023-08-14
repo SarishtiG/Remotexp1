@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Site</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form action="" method="post">
+            <h2>Manage Site</h2>
+            <div class="content"></div>
+            <div class="input-box"></div>
+            <label for="url">URL </label><br>
+            <input type="url" placeholder="Enter URL" name="url" id="url"><br>
+            <label for="tag">Choose a tag:</label><br>
+            <select id="tag" name="tag">
+                <option value="parent">Parent Tag</option>
+                <option value="heading">Heading Tag</option>
+                <option value="image">Image Tag</option>
+                <option value="link">Link Tag</option>
+            </select>
+            <input type="text" placeholder="Enter schema" name="tag1" id="tag1"><br>
+            <label for="tag">Choose a tag:</label><br>
+            <select id="tag" name="tag">
+                <option value="parent">Parent Tag</option>
+                <option value="heading">Heading Tag</option>
+                <option value="image">Image Tag</option>
+                <option value="link">Link Tag</option>
+            </select>
+            <input type="text" placeholder="Enter schema" name="tag2" id="tag2"><br>
+            <label for="tag">Choose a tag:</label><br>
+            <select id="tag" name="tag">
+                <option value="parent">Parent Tag</option>
+                <option value="heading">Heading Tag</option>
+                <option value="image">Image Tag</option>
+                <option value="link">Link Tag</option>
+            </select>
+            <input type="text" placeholder="Enter schema" name="tag2" id="tag2"><br>
+            <input type="button" value="ADD">
+            <input type="button" value="TEST">
+        </form>
+    </div>
+</body>
+</html>
