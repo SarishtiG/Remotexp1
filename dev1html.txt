@@ -1,3 +1,10 @@
+//Adding some CSS in Addition
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
